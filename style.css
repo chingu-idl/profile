@@ -1,0 +1,82 @@
+h1 {
+  color: #2B3337;
+  font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #76888E;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+#profile_pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #76888E;
+  margin: auto;
+  display: block;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: italic;
+  line-height: 1.6;
+  text-align: center;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: centre;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #a9b3b4;
+  border-radius: 10px;
+  width: 600px;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+.card {
+  background-color: #DDE5E6 ;
+  box-shadow: 5px 5px 20px #76888E;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 20px auto;
+  width: 400px;
+}
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  transform: scale(1.2);
+}
+
+@media (min-width: 720px) {
+.container {
+  width: 500px;
+}
+}
+@media (min-width: 960px) {
+.container {
+  width: 700px;
+}
+}
